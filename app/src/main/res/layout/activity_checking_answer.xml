@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.howmuchdoyouknowaboutsweden.CheckingAnswerActivity">
+
+    <TextView
+        android:id = "@+id/name_greeting"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="false"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_circular"
+        android:layout_gravity="center_horizontal"
+        android:progress="75"
+        android:secondaryProgress="100"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "You have scored"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id = "@+id/final_score"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        tools:text = "3/4"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "on"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "how much do you know about Sweden"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>
